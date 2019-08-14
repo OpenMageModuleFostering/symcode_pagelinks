@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Symcode_PageLinks",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(-GPL-)",
+    "homepage": "",
+    "description": "Manage cms links",
+    "authors": [
+    {
+        "name": "Mehmet Durmaz",
+        "email": "info@symcode.de"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Symcode_PageLinks</name>
+    <version>1.0.0.3</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/gpl-3.0">GNU General Public License ( GPL )</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Manage cms links</summary>
+    <description>Manage easily cms links on page.</description>
+    <notes>Stable version</notes>
+    <authors><author><name>Mehmet Durmaz</name><user>symcode</user><email>info@symcode.de</email></author></authors>
+    <date>2014-04-06</date>
+    <time>12:54:09</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Symcode_PageLinks.xml" hash="f3a34726953b932719e9a24c60f5b3aa"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Symcode_PageLinks.csv" hash="9d80170322b703478dfdd66caf31d392"/></dir></target><target name="magecommunity"><dir name="Symcode"><dir name="PageLinks"><dir name="Helper"><file name="Data.php" hash="f5f0e2d723515aa07b392455af85e735"/></dir><dir name="Model"><dir name="Cms"><dir name="MenuLink"><file name="Node.php" hash="52a68378fb8bb59795bfee7371178aa1"/></dir><file name="PageLink.php" hash="0d3ab41583dff6e6c8f17bda9e6464e5"/></dir><dir name="Mysql4"><dir name="Cms"><dir name="PageLink"><file name="Collection.php" hash="684062e711edca40d37363db04621b94"/></dir><file name="PageLink.php" hash="aacd92f36d7fb6df9458eadb49222a3f"/></dir></dir><file name="Observer.php" hash="a62886ba2f1c1266c7a74a429bb94b97"/><dir name="Resource"><file name="Setup.php" hash="f49239bb344a122396a63328ec21a1b5"/></dir></dir><dir name="etc"><file name="config.xml" hash="1d79b6d11830ccd68b711d2acab7c098"/></dir><dir name="sql"><dir name="pagelinks_setup"><file name="mysql4-install-1.0.0.php" hash="b2d86e068fabf9ce923518dcccee00f6"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.13</min><max>6.0.0</max></php></required></dependencies>
+</package>
